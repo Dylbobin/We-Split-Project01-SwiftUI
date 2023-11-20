@@ -7,9 +7,11 @@
 
 import SwiftUI
 
+// contains main code to launch
 @main
 struct We_SplitApp: App {
     var body: some Scene {
+        //keep data alive
         WindowGroup {
             ContentView()
         }
